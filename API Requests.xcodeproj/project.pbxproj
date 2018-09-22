@@ -12,6 +12,13 @@
 		89AB3DDC215221B10011D1D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89AB3DDA215221B10011D1D0 /* Main.storyboard */; };
 		89AB3DDE215221B70011D1D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89AB3DDD215221B70011D1D0 /* Assets.xcassets */; };
 		89AB3DE1215221B70011D1D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89AB3DDF215221B70011D1D0 /* LaunchScreen.storyboard */; };
+		89AB3DE9215223240011D1D0 /* 1*hgBtloFd9ZNeKwOEvfcpig.png in Resources */ = {isa = PBXBuildFile; fileRef = 89AB3DE8215223230011D1D0 /* 1*hgBtloFd9ZNeKwOEvfcpig.png */; };
+		89AB3DEB215229C00011D1D0 /* 1*8_EnX4o2ut2_H7mjXs6hGg.png in Resources */ = {isa = PBXBuildFile; fileRef = 89AB3DEA215229BE0011D1D0 /* 1*8_EnX4o2ut2_H7mjXs6hGg.png */; };
+		89AB3E0B2152383F0011D1D0 /* ViewControllerTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89AB3E0A2152383F0011D1D0 /* ViewControllerTwo.swift */; };
+		89AB3E0D215246DE0011D1D0 /* ResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89AB3E0C215246DE0011D1D0 /* ResponseModel.swift */; };
+		89AB3E1221524BF90011D1D0 /* URLExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89AB3E1121524BF90011D1D0 /* URLExtension.swift */; };
+		89AB3E1521524D190011D1D0 /* ViewControllerThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89AB3E1421524D190011D1D0 /* ViewControllerThree.swift */; };
+		89AB3E17215253710011D1D0 /* UnsplashResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89AB3E16215253710011D1D0 /* UnsplashResponseModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,13 @@
 		89AB3DDD215221B70011D1D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89AB3DE0215221B70011D1D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89AB3DE2215221B70011D1D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89AB3DE8215223230011D1D0 /* 1*hgBtloFd9ZNeKwOEvfcpig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1*hgBtloFd9ZNeKwOEvfcpig.png"; sourceTree = "<group>"; };
+		89AB3DEA215229BE0011D1D0 /* 1*8_EnX4o2ut2_H7mjXs6hGg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1*8_EnX4o2ut2_H7mjXs6hGg.png"; sourceTree = "<group>"; };
+		89AB3E0A2152383F0011D1D0 /* ViewControllerTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTwo.swift; sourceTree = "<group>"; };
+		89AB3E0C215246DE0011D1D0 /* ResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseModel.swift; sourceTree = "<group>"; };
+		89AB3E1121524BF90011D1D0 /* URLExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLExtension.swift; sourceTree = "<group>"; };
+		89AB3E1421524D190011D1D0 /* ViewControllerThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerThree.swift; sourceTree = "<group>"; };
+		89AB3E16215253710011D1D0 /* UnsplashResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsplashResponseModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +68,53 @@
 		89AB3DD5215221B10011D1D0 /* API Requests */ = {
 			isa = PBXGroup;
 			children = (
+				89AB3DE8215223230011D1D0 /* 1*hgBtloFd9ZNeKwOEvfcpig.png */,
+				89AB3DEA215229BE0011D1D0 /* 1*8_EnX4o2ut2_H7mjXs6hGg.png */,
 				89AB3DD6215221B10011D1D0 /* AppDelegate.swift */,
-				89AB3DD8215221B10011D1D0 /* ViewController.swift */,
 				89AB3DDA215221B10011D1D0 /* Main.storyboard */,
+				89AB3E1021524BE00011D1D0 /* Extensions */,
+				89AB3E0E21524AAA0011D1D0 /* Approach 1 */,
+				89AB3E0F21524ABD0011D1D0 /* Approach 2 */,
+				89AB3E1321524CF70011D1D0 /* UnsplashDemo */,
 				89AB3DDD215221B70011D1D0 /* Assets.xcassets */,
 				89AB3DDF215221B70011D1D0 /* LaunchScreen.storyboard */,
 				89AB3DE2215221B70011D1D0 /* Info.plist */,
 			);
 			path = "API Requests";
+			sourceTree = "<group>";
+		};
+		89AB3E0E21524AAA0011D1D0 /* Approach 1 */ = {
+			isa = PBXGroup;
+			children = (
+				89AB3DD8215221B10011D1D0 /* ViewController.swift */,
+			);
+			path = "Approach 1";
+			sourceTree = "<group>";
+		};
+		89AB3E0F21524ABD0011D1D0 /* Approach 2 */ = {
+			isa = PBXGroup;
+			children = (
+				89AB3E0A2152383F0011D1D0 /* ViewControllerTwo.swift */,
+				89AB3E0C215246DE0011D1D0 /* ResponseModel.swift */,
+			);
+			path = "Approach 2";
+			sourceTree = "<group>";
+		};
+		89AB3E1021524BE00011D1D0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				89AB3E1121524BF90011D1D0 /* URLExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		89AB3E1321524CF70011D1D0 /* UnsplashDemo */ = {
+			isa = PBXGroup;
+			children = (
+				89AB3E1421524D190011D1D0 /* ViewControllerThree.swift */,
+				89AB3E16215253710011D1D0 /* UnsplashResponseModel.swift */,
+			);
+			path = UnsplashDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,7 +177,9 @@
 			files = (
 				89AB3DE1215221B70011D1D0 /* LaunchScreen.storyboard in Resources */,
 				89AB3DDE215221B70011D1D0 /* Assets.xcassets in Resources */,
+				89AB3DEB215229C00011D1D0 /* 1*8_EnX4o2ut2_H7mjXs6hGg.png in Resources */,
 				89AB3DDC215221B10011D1D0 /* Main.storyboard in Resources */,
+				89AB3DE9215223240011D1D0 /* 1*hgBtloFd9ZNeKwOEvfcpig.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +190,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89AB3E1221524BF90011D1D0 /* URLExtension.swift in Sources */,
+				89AB3E1521524D190011D1D0 /* ViewControllerThree.swift in Sources */,
 				89AB3DD9215221B10011D1D0 /* ViewController.swift in Sources */,
 				89AB3DD7215221B10011D1D0 /* AppDelegate.swift in Sources */,
+				89AB3E0D215246DE0011D1D0 /* ResponseModel.swift in Sources */,
+				89AB3E0B2152383F0011D1D0 /* ViewControllerTwo.swift in Sources */,
+				89AB3E17215253710011D1D0 /* UnsplashResponseModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
